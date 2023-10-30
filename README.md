@@ -13,7 +13,9 @@ Para a Prática 4 foram montados 2 circuitos diferentes, o primeiro referente à
 
 A montagem do circuito de controle da luminosidade do LED via PWM foi realizada de acordo com as instruções do site [gpiozero(pwm)](https://gpiozero.readthedocs.io/en/stable/migrating_from_rpigpio.html) dessa forma o objetivo foi alterar o duty cycle constantemente(de 0 a 100%) para vizualizar a mudança de luminosidade do LED na protoboard.
 
-![montagem_pwm_LED](Pratica_4/images/Montagem_pwm.jpeg "montagem_pwm_LED")
+<p align="center">
+    <img src='Pratica_4/images/Montagem_pwm.jpeg' width='350'>
+</p>
 
 Na primeira prática, utilizamos em série um LED e um resistor de 110Ω, conectados no GND e no pino 3 da Raspberry Pi.
 
@@ -22,16 +24,24 @@ O código primeiro define o pino 3 como saída GPIO do circuito(asim consegue en
 #### Imagens do Osciloscópio
 
 Com o PWM alterado para Duty Cycle = 0
-![PWM_0](Pratica_4/images/PWM_0.jpeg "PWM_0")
+
+<p align="center">
+    <img src='Pratica_4/images/PWM_0.jpeg' width='350'>
+</p>
 
 Com o PWM no momento em que o Duty Cycle está entre 0 e 100%
-![PWM_1](Pratica_4/images/PWM_1.jpeg "PWM_1")
+
+<p align="center">
+    <img src='Pratica_4/images/PWM_1.jpeg' width='350'>
+</p>
 
 ### Circuito com Sensor Ultrassonico
 
 A montagem do circuito ultrassonico foi feita de acordo com as instruções do site da [gpiozero(distance sensor)](https://gpiozero.readthedocs.io/en/stable/recipes.html?highlight=distance%20sensor#distance-sensor) dessa forma o objetivo é de construir um sensor de distância que, em uma determinada frequência, avalia a distância e printa ela no terminal.
 
-![montagem_ultrassonico](Pratica_4/images/Montagem_ultrasonico.jpeg "montagem_ultrassonico")
+<p align="center">
+    <img src='Pratica_4/images/Montagem_ultrasonico.jpeg' width='350'>
+</p>
 
 Para a segunda prática, utilizamos um sensor ultrassônico, para realizar a medida de distâncias que vão até 1m, utilizando o sensor, um resistor de 220Ω e um resistor de 470Ω, utilizando o pino 23 no Echo e o pino 24 no Trigger
 
