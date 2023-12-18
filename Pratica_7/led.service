@@ -1,0 +1,17 @@
+[Unit]
+# Descrição do serviço
+Description = Blink LED
+
+# Indica que este serviço é iniciado após o multi-user.target ser alcançado
+After=multi-user.target
+
+[Service]
+# Comando ou script a ser executado quando o serviço é iniciado
+ExecStart=/home/sel/4487/led.sh
+
+# Define o usuário que executará este serviço como 'sel'
+user=sel
+
+[Install]
+WantedBy=multi-user.target
+
